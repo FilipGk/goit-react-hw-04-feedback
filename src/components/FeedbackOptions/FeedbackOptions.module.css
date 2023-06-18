@@ -1,0 +1,24 @@
+.btn {
+  width: 70px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:nth-child(1) {
+  background-color: lime;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  scale: 1.25;
+  transition: 500ms ease-in-out;
+}
+.btn:nth-child(2) {
+  background-color: gray;
+  text-transform: capitalize;
+  margin-inline: 10px;
+}
+.btn:nth-child(3) {
+  background-color: red;
+  text-transform: capitalize;
+}

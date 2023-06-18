@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.wrapper {
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 30px;
+  background: linear-gradient(30deg, #ce0aff 4%, #61ffe5 100%);
+}
